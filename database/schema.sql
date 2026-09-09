@@ -5,7 +5,7 @@
 
 
 
-USE `agend_pro`;
+
 
 -- 1. Tabela: usuarios (Administradores do sistema)
 CREATE TABLE IF NOT EXISTS `usuarios` (
