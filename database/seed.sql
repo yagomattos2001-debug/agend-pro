@@ -2,7 +2,6 @@
 -- AGEND PRO - Carga Inicial de Dados (Seed Data)
 -- =======================================================
 
-USE `agend_pro`;
 
 -- Limpeza prévia para evitar duplicidades em re-execuções
 SET FOREIGN_KEY_CHECKS = 0;
