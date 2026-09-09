@@ -1,0 +1,6 @@
+{
+  "name": "AGEND PRO",
+  "description": "Sistema completo de gestão de agendamentos com controle de profissionais, serviços, horários de trabalho e prevenção rigorosa de conflitos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
