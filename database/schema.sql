@@ -3,9 +3,7 @@
 -- Banco de Dados: agend_pro (MySQL / MariaDB)
 -- =======================================================
 
-CREATE DATABASE IF NOT EXISTS `agend_pro`
-  DEFAULT CHARACTER SET utf8mb4
-  DEFAULT COLLATE utf8mb4_unicode_ci;
+
 
 USE `agend_pro`;
 
