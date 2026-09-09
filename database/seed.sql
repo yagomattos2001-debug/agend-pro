@@ -3,17 +3,6 @@
 -- =======================================================
 
 
--- Limpeza prévia para evitar duplicidades em re-execuções
-SET FOREIGN_KEY_CHECKS = 0;
-TRUNCATE TABLE `agendamentos`;
-TRUNCATE TABLE `horarios_trabalho`;
-TRUNCATE TABLE `profissional_servicos`;
-TRUNCATE TABLE `servicos`;
-TRUNCATE TABLE `profissionais`;
-TRUNCATE TABLE `clientes`;
-TRUNCATE TABLE `usuarios`;
-SET FOREIGN_KEY_CHECKS = 1;
-
 -- 1. Usuário Administrador (Senha: admin123)
 INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`) VALUES
 (1, 'Administrador AgendPro', 'admin@agendpro.com.br', '$2y$10$Rtoe8Xf3gWhEDCtpcsJFfu/BIKvyeyKa77naZnXphiArUgpWT/3Xq');
